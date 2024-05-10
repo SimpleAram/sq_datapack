@@ -1,0 +1,47 @@
+
+##  < 마나 표시 >
+
+#   ▼ 0% ~ 4%
+execute as @s[team=Friendly,tag=Player,gamemode=!spectator] run title @s[scores={PLAYER.RATIO_MANA=..4}] actionbar [{"score":{"name":"@s","objective":"PLAYER.MANA"},"color":"#3b6ad1","bold":true},{"text":"  "},{"text":"▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒","color":"#95979c","bold":false},{"text":"  "},{"score":{"name":"@s","objective":"PLAYER.EMPTY_MANA"},"color":"#95979c","bold":true}]
+#   ▼ 5% ~ 9%
+execute as @s[team=Friendly,tag=Player,gamemode=!spectator] run title @s[scores={PLAYER.RATIO_MANA=5..9}] actionbar [{"score":{"name":"@s","objective":"PLAYER.MANA"},"color":"#3b6ad1","bold":true},{"text":"  "},{"text":"█","color":"#3b6ad1","bold":false},{"text":"▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒","color":"#95979c","bold":false},{"text":"  "},{"score":{"name":"@s","objective":"PLAYER.EMPTY_MANA"},"color":"#95979c","bold":true}]
+#   ▼ 10% ~ 14%
+execute as @s[team=Friendly,tag=Player,gamemode=!spectator] run title @s[scores={PLAYER.RATIO_MANA=10..14}] actionbar [{"score":{"name":"@s","objective":"PLAYER.MANA"},"color":"#3b6ad1","bold":true},{"text":"  "},{"text":"██","color":"#3b6ad1","bold":false},{"text":"▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒","color":"#95979c","bold":false},{"text":"  "},{"score":{"name":"@s","objective":"PLAYER.EMPTY_MANA"},"color":"#95979c","bold":true}]
+#   ▼ 15% ~ 19%
+execute as @s[team=Friendly,tag=Player,gamemode=!spectator] run title @s[scores={PLAYER.RATIO_MANA=15..19}] actionbar [{"score":{"name":"@s","objective":"PLAYER.MANA"},"color":"#3b6ad1","bold":true},{"text":"  "},{"text":"███","color":"#3b6ad1","bold":false},{"text":"▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒","color":"#95979c","bold":false},{"text":"  "},{"score":{"name":"@s","objective":"PLAYER.EMPTY_MANA"},"color":"#95979c","bold":true}]
+#   ▼ 20% ~ 24%
+execute as @s[team=Friendly,tag=Player,gamemode=!spectator] run title @s[scores={PLAYER.RATIO_MANA=20..24}] actionbar [{"score":{"name":"@s","objective":"PLAYER.MANA"},"color":"#3b6ad1","bold":true},{"text":"  "},{"text":"████","color":"#3b6ad1","bold":false},{"text":"▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒","color":"#95979c","bold":false},{"text":"  "},{"score":{"name":"@s","objective":"PLAYER.EMPTY_MANA"},"color":"#95979c","bold":true}]
+#   ▼ 25% ~ 29%
+execute as @s[team=Friendly,tag=Player,gamemode=!spectator] run title @s[scores={PLAYER.RATIO_MANA=25..29}] actionbar [{"score":{"name":"@s","objective":"PLAYER.MANA"},"color":"#3b6ad1","bold":true},{"text":"  "},{"text":"█████","color":"#3b6ad1","bold":false},{"text":"▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒","color":"#95979c","bold":false},{"text":"  "},{"score":{"name":"@s","objective":"PLAYER.EMPTY_MANA"},"color":"#95979c","bold":true}]
+#   ▼ 30% ~ 34%
+execute as @s[team=Friendly,tag=Player,gamemode=!spectator] run title @s[scores={PLAYER.RATIO_MANA=30..34}] actionbar [{"score":{"name":"@s","objective":"PLAYER.MANA"},"color":"#3b6ad1","bold":true},{"text":"  "},{"text":"██████","color":"#3b6ad1","bold":false},{"text":"▒▒▒▒▒▒▒▒▒▒▒▒▒▒","color":"#95979c","bold":false},{"text":"  "},{"score":{"name":"@s","objective":"PLAYER.EMPTY_MANA"},"color":"#95979c","bold":true}]
+#   ▼ 35% ~ 39%
+execute as @s[team=Friendly,tag=Player,gamemode=!spectator] run title @s[scores={PLAYER.RATIO_MANA=35..39}] actionbar [{"score":{"name":"@s","objective":"PLAYER.MANA"},"color":"#3b6ad1","bold":true},{"text":"  "},{"text":"███████","color":"#3b6ad1","bold":false},{"text":"▒▒▒▒▒▒▒▒▒▒▒▒▒","color":"#95979c","bold":false},{"text":"  "},{"score":{"name":"@s","objective":"PLAYER.EMPTY_MANA"},"color":"#95979c","bold":true}]
+#   ▼ 40% ~ 44%
+execute as @s[team=Friendly,tag=Player,gamemode=!spectator] run title @s[scores={PLAYER.RATIO_MANA=40..44}] actionbar [{"score":{"name":"@s","objective":"PLAYER.MANA"},"color":"#3b6ad1","bold":true},{"text":"  "},{"text":"████████","color":"#3b6ad1","bold":false},{"text":"▒▒▒▒▒▒▒▒▒▒▒▒","color":"#95979c","bold":false},{"text":"  "},{"score":{"name":"@s","objective":"PLAYER.EMPTY_MANA"},"color":"#95979c","bold":true}]
+#   ▼ 45% ~ 49%
+execute as @s[team=Friendly,tag=Player,gamemode=!spectator] run title @s[scores={PLAYER.RATIO_MANA=45..49}] actionbar [{"score":{"name":"@s","objective":"PLAYER.MANA"},"color":"#3b6ad1","bold":true},{"text":"  "},{"text":"█████████","color":"#3b6ad1","bold":false},{"text":"▒▒▒▒▒▒▒▒▒▒▒","color":"#95979c","bold":false},{"text":"  "},{"score":{"name":"@s","objective":"PLAYER.EMPTY_MANA"},"color":"#95979c","bold":true}]
+#   ▼ 50% ~ 54%
+execute as @s[team=Friendly,tag=Player,gamemode=!spectator] run title @s[scores={PLAYER.RATIO_MANA=50..54}] actionbar [{"score":{"name":"@s","objective":"PLAYER.MANA"},"color":"#3b6ad1","bold":true},{"text":"  "},{"text":"██████████","color":"#3b6ad1","bold":false},{"text":"▒▒▒▒▒▒▒▒▒▒","color":"#95979c","bold":false},{"text":"  "},{"score":{"name":"@s","objective":"PLAYER.EMPTY_MANA"},"color":"#95979c","bold":true}]
+#   ▼ 55% ~ 59%
+execute as @s[team=Friendly,tag=Player,gamemode=!spectator] run title @s[scores={PLAYER.RATIO_MANA=55..59}] actionbar [{"score":{"name":"@s","objective":"PLAYER.MANA"},"color":"#3b6ad1","bold":true},{"text":"  "},{"text":"███████████","color":"#3b6ad1","bold":false},{"text":"▒▒▒▒▒▒▒▒▒","color":"#95979c","bold":false},{"text":"  "},{"score":{"name":"@s","objective":"PLAYER.EMPTY_MANA"},"color":"#95979c","bold":true}]
+#   ▼ 60% ~ 64%
+execute as @s[team=Friendly,tag=Player,gamemode=!spectator] run title @s[scores={PLAYER.RATIO_MANA=60..64}] actionbar [{"score":{"name":"@s","objective":"PLAYER.MANA"},"color":"#3b6ad1","bold":true},{"text":"  "},{"text":"████████████","color":"#3b6ad1","bold":false},{"text":"▒▒▒▒▒▒▒▒","color":"#95979c","bold":false},{"text":"  "},{"score":{"name":"@s","objective":"PLAYER.EMPTY_MANA"},"color":"#95979c","bold":true}]
+#   ▼ 65% ~ 69%
+execute as @s[team=Friendly,tag=Player,gamemode=!spectator] run title @s[scores={PLAYER.RATIO_MANA=65..69}] actionbar [{"score":{"name":"@s","objective":"PLAYER.MANA"},"color":"#3b6ad1","bold":true},{"text":"  "},{"text":"█████████████","color":"#3b6ad1","bold":false},{"text":"▒▒▒▒▒▒▒","color":"#95979c","bold":false},{"text":"  "},{"score":{"name":"@s","objective":"PLAYER.EMPTY_MANA"},"color":"#95979c","bold":true}]
+#   ▼ 70% ~ 74%
+execute as @s[team=Friendly,tag=Player,gamemode=!spectator] run title @s[scores={PLAYER.RATIO_MANA=70..74}] actionbar [{"score":{"name":"@s","objective":"PLAYER.MANA"},"color":"#3b6ad1","bold":true},{"text":"  "},{"text":"██████████████","color":"#3b6ad1","bold":false},{"text":"▒▒▒▒▒▒","color":"#95979c","bold":false},{"text":"  "},{"score":{"name":"@s","objective":"PLAYER.EMPTY_MANA"},"color":"#95979c","bold":true}]
+#   ▼ 75% ~ 79%
+execute as @s[team=Friendly,tag=Player,gamemode=!spectator] run title @s[scores={PLAYER.RATIO_MANA=75..79}] actionbar [{"score":{"name":"@s","objective":"PLAYER.MANA"},"color":"#3b6ad1","bold":true},{"text":"  "},{"text":"███████████████","color":"#3b6ad1","bold":false},{"text":"▒▒▒▒▒","color":"#95979c","bold":false},{"text":"  "},{"score":{"name":"@s","objective":"PLAYER.EMPTY_MANA"},"color":"#95979c","bold":true}]
+#   ▼ 80% ~ 84%
+execute as @s[team=Friendly,tag=Player,gamemode=!spectator] run title @s[scores={PLAYER.RATIO_MANA=80..84}] actionbar [{"score":{"name":"@s","objective":"PLAYER.MANA"},"color":"#3b6ad1","bold":true},{"text":"  "},{"text":"████████████████","color":"#3b6ad1","bold":false},{"text":"▒▒▒▒","color":"#95979c","bold":false},{"text":"  "},{"score":{"name":"@s","objective":"PLAYER.EMPTY_MANA"},"color":"#95979c","bold":true}]
+#   ▼ 85% ~ 89%
+execute as @s[team=Friendly,tag=Player,gamemode=!spectator] run title @s[scores={PLAYER.RATIO_MANA=85..89}] actionbar [{"score":{"name":"@s","objective":"PLAYER.MANA"},"color":"#3b6ad1","bold":true},{"text":"  "},{"text":"█████████████████","color":"#3b6ad1","bold":false},{"text":"▒▒▒","color":"#95979c","bold":false},{"text":"  "},{"score":{"name":"@s","objective":"PLAYER.EMPTY_MANA"},"color":"#95979c","bold":true}]
+#   ▼ 90% ~ 94%
+execute as @s[team=Friendly,tag=Player,gamemode=!spectator] run title @s[scores={PLAYER.RATIO_MANA=90..94}] actionbar [{"score":{"name":"@s","objective":"PLAYER.MANA"},"color":"#3b6ad1","bold":true},{"text":"  "},{"text":"██████████████████","color":"#3b6ad1","bold":false},{"text":"▒▒","color":"#95979c","bold":false},{"text":"  "},{"score":{"name":"@s","objective":"PLAYER.EMPTY_MANA"},"color":"#95979c","bold":true}]
+#   ▼ 95% ~ 99%
+execute as @s[team=Friendly,tag=Player,gamemode=!spectator] run title @s[scores={PLAYER.RATIO_MANA=95..99}] actionbar [{"score":{"name":"@s","objective":"PLAYER.MANA"},"color":"#3b6ad1","bold":true},{"text":"  "},{"text":"███████████████████","color":"#3b6ad1","bold":false},{"text":"▒","color":"#95979c","bold":false},{"text":"  "},{"score":{"name":"@s","objective":"PLAYER.EMPTY_MANA"},"color":"#95979c","bold":true}]
+#   ▼ 100%
+execute as @s[team=Friendly,tag=Player,gamemode=!spectator] run title @s[scores={PLAYER.RATIO_MANA=100}] actionbar [{"score":{"name":"@s","objective":"PLAYER.MANA"},"color":"#3b6ad1","bold":true},{"text":"  "},{"text":"████████████████████","color":"#3b6ad1","bold":false},{"text":"  "},{"score":{"name":"@s","objective":"PLAYER.EMPTY_MANA"},"color":"#95979c","bold":true}]
+#   ▼ 101% ~
+execute as @s[team=Friendly,tag=Player,gamemode=!spectator] if score @s PLAYER.MANA > @s PLAYER.MAX_MANA run title @s actionbar [{"score":{"name":"@s","objective":"PLAYER.MANA"},"color":"#d1c53b","bold":true},{"text":"  "},{"text":"████████████████████","color":"#d1c53b","bold":false},{"text":"  "},{"score":{"name":"@s","objective":"PLAYER.RATIO_MANA"},"color":"#e6e5e1","bold":true},{"text":"%","color":"#e6e5e1"}]

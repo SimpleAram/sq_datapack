@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": {
+      "text": "스페셜",
+      "bold": true
+    },
+    "description": {
+      "text": "나의 존재가 매우 특별해진 기분이다 ☆",
+      "color": "white",
+      "bold": false
+    },
+    "background": "minecraft:textures/block/green_stained_glass.png",
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "minecraft:emblem",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "rewards": {}
+}
